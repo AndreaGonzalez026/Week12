@@ -1,0 +1,12 @@
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    private int inventory = 0;
+
+    public void CollectPickup()
+    {
+        inventory++;
+        Debug.Log("Inventory: " + inventory);
+    }
+}
